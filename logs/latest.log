@@ -1,19 +1,45 @@
-[92m2022-04-07 10:55:47 I/main: Starting mirai-console...[0m[m
-[92m2022-04-07 10:55:47 I/main: Backend: version 2.11.0-M2.2, built on 2022-04-02 19:33:49.[0m[m
-[92m2022-04-07 10:55:47 I/main: Frontend Terminal: version 2.11.0-M2.2, provided by Mamoe Technologies[0m[m
-[92m2022-04-07 10:55:47 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
-[91m2022-04-07 10:55:47 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
-[91m2022-04-07 10:55:47 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
-[91m2022-04-07 10:55:47 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
-[92m2022-04-07 10:55:47 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
-[92m2022-04-07 10:55:47 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.5.0[0m[m
-[92m2022-04-07 10:55:48 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
-[92m2022-04-07 10:55:48 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
-[91m2022-04-07 10:55:48 W/net.mamoe.mirai-api-http: USING INITIAL KEY, please edit the key[0m[m
-[92m2022-04-07 10:55:48 I/Mirai HTTP API: ********************************************************[0m[m
-[92m2022-04-07 10:55:48 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
-[92m2022-04-07 10:55:48 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYP6n0XdFM[0m[m
-[92m2022-04-07 10:55:48 I/Mirai HTTP API: adaptors: [http][0m[m
-[92m2022-04-07 10:55:48 I/Mirai HTTP API: ********************************************************[0m[m
-[92m2022-04-07 10:55:48 I/main: 2 plugin(s) enabled.[0m[m
-[92m2022-04-07 10:55:48 I/main: mirai-console started successfully.[0m[m
+[92m2022-04-07 13:01:33 I/main: Starting mirai-console...[0m[m
+[92m2022-04-07 13:01:33 I/main: Backend: version 2.11.0-M2.2, built on 2022-04-02 19:33:49.[0m[m
+[92m2022-04-07 13:01:33 I/main: Frontend Terminal: version 2.11.0-M2.2, provided by Mamoe Technologies[0m[m
+[92m2022-04-07 13:01:33 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-04-07 13:01:34 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-04-07 13:01:34 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-04-07 13:01:34 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-04-07 13:01:34 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-04-07 13:01:34 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.5.0[0m[m
+[92m2022-04-07 13:01:34 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-04-07 13:01:34 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[92m2022-04-07 13:01:34 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-04-07 13:01:34 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-04-07 13:01:34 I/ws adapter: >>> [ws adapter] is listening at ws://localhost:8080[0m[m
+[92m2022-04-07 13:01:34 I/Mirai HTTP API: Http api server is running with verifyKey: ServiceVerifyKey[0m[m
+[92m2022-04-07 13:01:34 I/Mirai HTTP API: adaptors: [http,ws][0m[m
+[92m2022-04-07 13:01:34 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-04-07 13:01:34 I/main: 2 plugin(s) enabled.[0m[m
+[92m2022-04-07 13:01:34 I/main: mirai-console started successfully.[0m[m
+[92m2022-04-07 13:01:39 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-04-07 13:01:39 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-04-07 13:01:39 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-04-07 13:01:40 I/Bot.3537519644: Loaded account secrets from local cache.[0m[m
+[92m2022-04-07 13:01:40 I/Bot.3537519644: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-04-07 13:01:41 I/Bot.3537519644: Login successful.[0m[m
+[0m2022-04-07 13:01:41 V/Bot.3537519644: Event: BotOnlineEvent(bot=Bot(3537519644))[0m[m
+[92m2022-04-07 13:01:41 I/Bot.3537519644: Bot login successful.[0m[m
+[0m2022-04-07 13:02:00 V/Bot.3537519644: 凝雨(2149730257) -> 1[0m[m
+[0m2022-04-07 13:02:00 V/Bot.3537519644: Friend(2149730257) <- Hello, World![0m[m
+[0m2022-04-07 13:03:41 V/Bot.3537519644: 凝雨(2149730257) -> hi[0m[m
+[0m2022-04-07 13:03:44 V/Bot.3537519644: Friend(2149730257) <- Hello, World![0m[m
+[0m2022-04-07 13:48:20 V/Bot.3537519644: Event: BotOfflineEvent.Dropped(bot=Bot(3537519644), cause=NettyChannelException(message=null, cause=java.io.IOException: 远程主机强迫关闭了一个现有的连接。), reconnect=true)[0m[m
+[91m2022-04-07 13:48:20 W/Bot.3537519644: Connection lost, reconnecting... (NettyChannelException(message=null, cause=java.io.IOException: 远程主机强迫关闭了一个现有的连接。))[0m[m
+[92m2022-04-07 13:48:20 I/Bot.3537519644: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-04-07 13:48:21 I/Bot.3537519644: Login successful.[0m[m
+[0m2022-04-07 13:48:21 V/Bot.3537519644: Event: BotOnlineEvent(bot=Bot(3537519644))[0m[m
+[0m2022-04-07 13:48:21 V/Bot.3537519644: Event: BotReloginEvent(bot=Bot(3537519644), cause=null)[0m[m
+[92m2022-04-07 13:48:21 I/Bot.3537519644: Reconnected successfully in 0.996s.[0m[m
+[0m2022-04-07 14:04:52 V/Bot.3537519644: Event: BotOfflineEvent.Dropped(bot=Bot(3537519644), cause=HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)[0m[m
+[91m2022-04-07 14:04:53 W/Bot.3537519644: Connection lost, reconnecting... (HeartbeatFailedException: AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=Timeout receiving Heartbeat response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))[0m[m
+[92m2022-04-07 14:05:45 I/Bot.3537519644: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-04-07 14:05:45 I/Bot.3537519644: Login successful.[0m[m
+[0m2022-04-07 14:05:45 V/Bot.3537519644: Event: BotOnlineEvent(bot=Bot(3537519644))[0m[m
+[0m2022-04-07 14:05:45 V/Bot.3537519644: Event: BotReloginEvent(bot=Bot(3537519644), cause=null)[0m[m
+[92m2022-04-07 14:05:45 I/Bot.3537519644: Reconnected successfully in 52.923s.[0m[m

@@ -1,0 +1,33 @@
+[92m2022-04-07 12:47:32 I/main: Starting mirai-console...[0m[m
+[92m2022-04-07 12:47:32 I/main: Backend: version 2.11.0-M2.2, built on 2022-04-02 19:33:49.[0m[m
+[92m2022-04-07 12:47:32 I/main: Frontend Terminal: version 2.11.0-M2.2, provided by Mamoe Technologies[0m[m
+[92m2022-04-07 12:47:32 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-04-07 12:47:32 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-04-07 12:47:32 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-04-07 12:47:32 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-04-07 12:47:32 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-04-07 12:47:32 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.5.0[0m[m
+[92m2022-04-07 12:47:32 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-04-07 12:47:32 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[91m2022-04-07 12:47:32 W/net.mamoe.mirai-api-http: USING INITIAL KEY, please edit the key[0m[m
+[92m2022-04-07 12:47:32 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-04-07 12:47:32 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-04-07 12:47:32 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYO4ic6caw[0m[m
+[92m2022-04-07 12:47:32 I/Mirai HTTP API: adaptors: [http][0m[m
+[92m2022-04-07 12:47:32 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-04-07 12:47:32 I/main: 2 plugin(s) enabled.[0m[m
+[92m2022-04-07 12:47:32 I/main: mirai-console started successfully.[0m[m
+[92m2022-04-07 12:47:48 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-04-07 12:47:48 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-04-07 12:47:48 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-04-07 12:47:49 I/Bot.3537519644: Loaded account secrets from local cache.[0m[m
+[92m2022-04-07 12:47:49 I/Bot.3537519644: Saved account secrets to local cache for fast login.[0m[m
+[92m2022-04-07 12:47:50 I/Bot.3537519644: Login successful.[0m[m
+[0m2022-04-07 12:47:50 V/Bot.3537519644: Event: BotOnlineEvent(bot=Bot(3537519644))[0m[m
+[92m2022-04-07 12:47:50 I/Bot.3537519644: Bot login successful.[0m[m
+[0m2022-04-07 12:48:59 V/Bot.3537519644: 凝雨(2149730257) -> 1[0m[m
+[0m2022-04-07 12:49:23 V/Bot.3537519644: [USTC碧蓝航线交流群(816938074)] 町(906008824) -> [mirai:quote:[8916],[1873025909]][mirai:at:1587884826] 别用夜神[0m[m
+[0m2022-04-07 12:49:31 V/Bot.3537519644: [USTC碧蓝航线交流群(816938074)] 町(906008824) -> 太垃圾了，一直卡死[0m[m
+[0m2022-04-07 12:49:37 V/Bot.3537519644: [USTC碧蓝航线交流群(816938074)] 町(906008824) -> 用蓝叠[0m[m
+[0m2022-04-07 12:54:50 V/Bot.3537519644: Event: BotOfflineEvent.Active(bot=Bot(3537519644), cause=kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@46fce110, reconnect=false)[0m[m
+[92m2022-04-07 12:54:50 I/Bot.3537519644: Bot cancelled: Job was cancelled[0m[m
