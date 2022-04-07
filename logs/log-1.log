@@ -1,0 +1,53 @@
+[92m2022-04-07 00:01:14 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-04-07 00:01:14 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[91m2022-04-07 00:01:15 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...[0m[m
+[92m2022-04-07 00:03:10 I/Bot.3537519644: Bot cancelled: Bot closed[0m[m
+[31m2022-04-07 00:03:10 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3537519644), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3537519644), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:265)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+	Suppressed: java.util.concurrent.CancellationException: Bot closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:112)
+		at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:80)
+		at net.mamoe.mirai.internal.AbstractBot.login(AbstractBot.kt:136)
+		at net.mamoe.mirai.internal.AbstractBot$login$1.invokeSuspend(AbstractBot.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+		... 4 more
+	[CIRCULAR REFERENCE:net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3537519644), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)]
+[0m[m
+[92m2022-04-07 00:07:58 I/Bot.3537519644: Bot cancelled: Bot closed[0m[m
+[31m2022-04-07 00:07:58 E/console: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3537519644), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3537519644), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:265)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+	Suppressed: java.util.concurrent.CancellationException: Bot closed
+		at kotlinx.coroutines.ExceptionsKt.CancellationException(Exceptions.kt:22)
+		at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:112)
+		at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:80)
+		at net.mamoe.mirai.internal.AbstractBot.login(AbstractBot.kt:136)
+		at net.mamoe.mirai.internal.AbstractBot$login$1.invokeSuspend(AbstractBot.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+		... 4 more
+	[CIRCULAR REFERENCE:net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3537519644), code=237, title=安全提醒, message=当前登录存在安全风险，请使用常用设备或通过手机号登录。, errorInfo=)]
+[0m[m

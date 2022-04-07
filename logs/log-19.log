@@ -1,0 +1,157 @@
+[92m2022-04-07 10:51:58 I/main: Starting mirai-console...[0m[m
+[92m2022-04-07 10:51:58 I/main: Backend: version 2.11.0-M2.2, built on 2022-04-02 19:33:49.[0m[m
+[92m2022-04-07 10:51:58 I/main: Frontend Terminal: version 2.11.0-M2.2, provided by Mamoe Technologies[0m[m
+[92m2022-04-07 10:51:58 I/main: Welcome to visit https://mirai.mamoe.net/[0m[m
+[91m2022-04-07 10:51:58 W/stderr: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".[0m[m
+[91m2022-04-07 10:51:58 W/stderr: SLF4J: Defaulting to no-operation (NOP) logger implementation[0m[m
+[91m2022-04-07 10:51:58 W/stderr: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.[0m[m
+[92m2022-04-07 10:51:59 I/plugin: Successfully loaded plugin MCL Addon v1.2.2[0m[m
+[92m2022-04-07 10:51:59 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http v2.5.0[0m[m
+[92m2022-04-07 10:51:59 I/net.mamoe.mirai-login-solver-selenium: Loading mirai-login-solver-selenium v1.0-dev-12[0m[m
+[92m2022-04-07 10:51:59 I/WindowHelperJvm: Mirai 正在使用桌面环境. 如遇到验证码将会弹出对话框. 可添加 JVM 属性 `mirai.no-desktop` 以关闭.[0m[m
+[92m2022-04-07 10:51:59 I/WindowHelperJvm: Mirai is using desktop. Captcha will be thrown by window popup. You can add `mirai.no-desktop` to JVM properties (-Dmirai.no-desktop) to disable it.[0m[m
+[92m2022-04-07 10:51:59 I/stdout: Line:     ProgId    REG_SZ    MSEdgeHTM, b64:ICAgIFByb2dJZCAgICBSRUdfU1ogICAgTVNFZGdlSFRN[0m[m
+[92m2022-04-07 10:51:59 I/stdout: List: [, ProgId, REG_SZ, MSEdgeHTM][0m[m
+[92m2022-04-07 10:51:59 I/stdout: Line:     AppUserModelId    REG_SZ    MSEdge, b64:ICAgIEFwcFVzZXJNb2RlbElkICAgIFJFR19TWiAgICBNU0VkZ2U=[0m[m
+[92m2022-04-07 10:51:59 I/stdout: List: [, AppUserModelId, REG_SZ, MSEdge][0m[m
+[92m2022-04-07 10:51:59 I/stdout: Line:     ApplicationIcon    REG_SZ    C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,0, b64:ICAgIEFwcGxpY2F0aW9uSWNvbiAgICBSRUdfU1ogICAgQzpcUHJvZ3JhbSBGaWxlcyAoeDg2KVxNaWNyb3NvZnRcRWRnZVxBcHBsaWNhdGlvblxtc2VkZ2UuZXhlLDA=[0m[m
+[92m2022-04-07 10:51:59 I/stdout: List: [, ApplicationIcon, REG_SZ, C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,0][0m[m
+[92m2022-04-07 10:51:59 I/stdout: Line:     ApplicationName    REG_SZ    Microsoft Edge, b64:ICAgIEFwcGxpY2F0aW9uTmFtZSAgICBSRUdfU1ogICAgTWljcm9zb2Z0IEVkZ2U=[0m[m
+[92m2022-04-07 10:51:59 I/stdout: List: [, ApplicationName, REG_SZ, Microsoft Edge][0m[m
+[92m2022-04-07 10:51:59 I/stdout: Line:     ApplicationDescription    REG_SZ    浏览 Web, b64:ICAgIEFwcGxpY2F0aW9uRGVzY3JpcHRpb24gICAgUkVHX1NaICAgIOa1j+iniCBXZWI=[0m[m
+[92m2022-04-07 10:51:59 I/stdout: List: [, ApplicationDescription, REG_SZ, 浏览 Web][0m[m
+[92m2022-04-07 10:51:59 I/stdout: Line:     ApplicationCompany    REG_SZ    Microsoft Corporation, b64:ICAgIEFwcGxpY2F0aW9uQ29tcGFueSAgICBSRUdfU1ogICAgTWljcm9zb2Z0IENvcnBvcmF0aW9u[0m[m
+[92m2022-04-07 10:51:59 I/stdout: List: [, ApplicationCompany, REG_SZ, Microsoft Corporation][0m[m
+[91m2022-04-07 10:51:59 W/net.mamoe.mirai-login-solver-selenium: mirai-login-solver-selenium is not supported.
+java.lang.RuntimeException: Exception in loading selenium
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImpl.<init>(SeleniumLoginSolverImpl.kt:33)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolver$SeleniumLoginSolver$2.invoke(SeleniumLoginSolver.kt:17)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolver$SeleniumLoginSolver$2.invoke(SeleniumLoginSolver.kt)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolver.getInstance(SeleniumLoginSolver.kt)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverPluginMode.onLoad(SeleniumLoginSolverPluginMode.kt:29)
+	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnLoad$mirai_console(JvmPluginInternal.kt:201)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.load(BuiltInJvmPluginLoaderImpl.kt:246)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.load(BuiltInJvmPluginLoaderImpl.kt:35)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.load(JvmPluginLoader.kt)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.load(JvmPluginLoader.kt:50)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.loadPluginNoEnable(PluginManagerImpl.kt:96)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.loadAllPluginsUsingBuiltInLoaders$mirai_console(PluginManagerImpl.kt:152)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:175)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:444)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:159)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:158)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.itxtech.mcl.Utility.bootMirai(Utility.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:226)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Interpreter.java:1692)
+	at org.mozilla.javascript.Interpreter.interpret(Interpreter.java:1013)
+	at org.mozilla.javascript.InterpretedFunction.call(InterpretedFunction.java:109)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:412)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3578)
+	at org.mozilla.javascript.InterpretedFunction.call(InterpretedFunction.java:107)
+	at org.mozilla.javascript.ArrowFunction.call(ArrowFunction.java:43)
+	at org.mozilla.javascript.InterfaceAdapter.invokeImpl(InterfaceAdapter.java:155)
+	at org.mozilla.javascript.InterfaceAdapter.lambda$invoke$0(InterfaceAdapter.java:105)
+	at org.mozilla.javascript.Context.call(Context.java:554)
+	at org.mozilla.javascript.ContextFactory.call(ContextFactory.java:522)
+	at org.mozilla.javascript.InterfaceAdapter.invoke(InterfaceAdapter.java:105)
+	at org.mozilla.javascript.jdk18.VMBridge_jdk18$1.invoke(VMBridge_jdk18.java:126)
+	at com.sun.proxy.$Proxy4.run(Unknown Source)
+	at org.itxtech.mcl.script.ScriptManager.phaseBoot(ScriptManager.java:106)
+	at org.itxtech.mcl.Loader.lambda$start$3(Loader.java:176)
+	at org.itxtech.mcl.Loader.tryCatching(Loader.java:145)
+	at org.itxtech.mcl.Loader.start(Loader.java:176)
+	at org.itxtech.mcl.Loader.main(Loader.java:68)
+Caused by: java.lang.UnsupportedOperationException: Unsupported browser: MSEdgeHTM, Only chrome/firefox supported
+	at mirai-login-solver-selenium-1.0-dev-17.jar//io.github.karlatemp.mxlib.selenium.MxSelenium.lambda$initialize0$4(MxSelenium.java:245)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//io.github.karlatemp.mxlib.selenium.MxSelenium.initialize0(MxSelenium.java:352)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//io.github.karlatemp.mxlib.selenium.MxSelenium.initialize(MxSelenium.java:138)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImplKt$setup$2.invoke(SeleniumLoginSolverImpl.kt:64)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImplKt$setup$2.invoke(SeleniumLoginSolverImpl.kt)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImplKt.getSetup(SeleniumLoginSolverImpl.kt)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImpl.<init>(SeleniumLoginSolverImpl.kt:32)
+	... 47 more
+[0m[m
+[91m2022-04-07 10:51:59 W/net.mamoe.mirai-login-solver-selenium: Visit https://github.com/project-mirai/mirai-login-solver-selenium for more information
+java.lang.RuntimeException: Exception in loading selenium
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImpl.<init>(SeleniumLoginSolverImpl.kt:33)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolver$SeleniumLoginSolver$2.invoke(SeleniumLoginSolver.kt:17)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolver$SeleniumLoginSolver$2.invoke(SeleniumLoginSolver.kt)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolver.getInstance(SeleniumLoginSolver.kt)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverPluginMode.onLoad(SeleniumLoginSolverPluginMode.kt:29)
+	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnLoad$mirai_console(JvmPluginInternal.kt:201)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.load(BuiltInJvmPluginLoaderImpl.kt:246)
+	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.load(BuiltInJvmPluginLoaderImpl.kt:35)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.load(JvmPluginLoader.kt)
+	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.load(JvmPluginLoader.kt:50)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.loadPluginNoEnable(PluginManagerImpl.kt:96)
+	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.loadAllPluginsUsingBuiltInLoaders$mirai_console(PluginManagerImpl.kt:152)
+	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:175)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:444)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:159)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:158)
+	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.itxtech.mcl.Utility.bootMirai(Utility.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
+	at org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:226)
+	at org.mozilla.javascript.Interpreter.interpretLoop(Interpreter.java:1692)
+	at org.mozilla.javascript.Interpreter.interpret(Interpreter.java:1013)
+	at org.mozilla.javascript.InterpretedFunction.call(InterpretedFunction.java:109)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:412)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3578)
+	at org.mozilla.javascript.InterpretedFunction.call(InterpretedFunction.java:107)
+	at org.mozilla.javascript.ArrowFunction.call(ArrowFunction.java:43)
+	at org.mozilla.javascript.InterfaceAdapter.invokeImpl(InterfaceAdapter.java:155)
+	at org.mozilla.javascript.InterfaceAdapter.lambda$invoke$0(InterfaceAdapter.java:105)
+	at org.mozilla.javascript.Context.call(Context.java:554)
+	at org.mozilla.javascript.ContextFactory.call(ContextFactory.java:522)
+	at org.mozilla.javascript.InterfaceAdapter.invoke(InterfaceAdapter.java:105)
+	at org.mozilla.javascript.jdk18.VMBridge_jdk18$1.invoke(VMBridge_jdk18.java:126)
+	at com.sun.proxy.$Proxy4.run(Unknown Source)
+	at org.itxtech.mcl.script.ScriptManager.phaseBoot(ScriptManager.java:106)
+	at org.itxtech.mcl.Loader.lambda$start$3(Loader.java:176)
+	at org.itxtech.mcl.Loader.tryCatching(Loader.java:145)
+	at org.itxtech.mcl.Loader.start(Loader.java:176)
+	at org.itxtech.mcl.Loader.main(Loader.java:68)
+Caused by: java.lang.UnsupportedOperationException: Unsupported browser: MSEdgeHTM, Only chrome/firefox supported
+	at mirai-login-solver-selenium-1.0-dev-17.jar//io.github.karlatemp.mxlib.selenium.MxSelenium.lambda$initialize0$4(MxSelenium.java:245)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//io.github.karlatemp.mxlib.selenium.MxSelenium.initialize0(MxSelenium.java:352)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//io.github.karlatemp.mxlib.selenium.MxSelenium.initialize(MxSelenium.java:138)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImplKt$setup$2.invoke(SeleniumLoginSolverImpl.kt:64)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImplKt$setup$2.invoke(SeleniumLoginSolverImpl.kt)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImplKt.getSetup(SeleniumLoginSolverImpl.kt)
+	at mirai-login-solver-selenium-1.0-dev-17.jar//net.mamoe.mirai.selenium.SeleniumLoginSolverImpl.<init>(SeleniumLoginSolverImpl.kt:32)
+	... 47 more
+[0m[m
+[92m2022-04-07 10:51:59 I/plugin: Successfully loaded plugin net.mamoe.mirai-login-solver-selenium v1.0-dev-12[0m[m
+[92m2022-04-07 10:51:59 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop[0m[m
+[92m2022-04-07 10:51:59 I/MCL Addon: iTXTech MCL Version: 1.2.2-60c67fb[0m[m
+[91m2022-04-07 10:51:59 W/net.mamoe.mirai-api-http: USING INITIAL KEY, please edit the key[0m[m
+[92m2022-04-07 10:51:59 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-04-07 10:51:59 I/http adapter: >>> [http adapter] is listening at http://localhost:8080[0m[m
+[92m2022-04-07 10:51:59 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYBVGGFTLE[0m[m
+[92m2022-04-07 10:51:59 I/Mirai HTTP API: adaptors: [http][0m[m
+[92m2022-04-07 10:51:59 I/Mirai HTTP API: ********************************************************[0m[m
+[92m2022-04-07 10:51:59 I/main: 3 plugin(s) enabled.[0m[m
+[92m2022-04-07 10:51:59 I/main: mirai-console started successfully.[0m[m
